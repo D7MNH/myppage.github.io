@@ -17,6 +17,8 @@ canvas {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  margin: auto;
+  padding: 12px 16px;
 }
 
 /* Style the links inside the navigation bar */
