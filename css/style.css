@@ -112,7 +112,7 @@ canvas {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  border-radius: 5px;
+  border-radius: 2px;
   color: black;
   padding-bottom: 18px;
   text-shadow: 
@@ -137,7 +137,7 @@ canvas {
 .topnav a.active {
   background-color: #337;
   color: white;
-  border-radius: 5px;
+  border-radius: 2px;
   padding-bottom: 18px;
 }
 
