@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>my own web</title>
+</head>
+<body>
+    <!-- <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div> -->
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a class="cv" href="cv.html">CV</a>
+        <a href="https://x.com/D7M_GF" target="_blank" class="split" id="X"><i class="fa fa-fw fa-twitter-square"></i></a>
+        <a href="about.html"><i class="fa fa-fw fa-user"></i>About</a>
+        <a href="testing.html">My testing page</a>
+        <a href="mailto:abdulrahman.alqfari@gmail.com" class="split" id="E"><i class="fa fa-fw fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/abdulrahman-alqfari-a788b8266/" target="_blank" class="split" id="L" ><i class="fa fa-fw fa-linkedin-square"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="me">
+        <img src="/img/me.png" alt="my pic">
+    </div>
+    <div>
+        <p class="fl">Hello my name is Abdulrahman </p>
+        <p class="sl">i'm trying to make my own website </p>
+        <p class="tl">my thime will be like this</p>
+    </div>
+</body>
+<script>
+    function myFunction(x) {
+  x.classList.toggle("change");
+}
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script src="java.js"></script>
+</html>
